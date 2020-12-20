@@ -1,0 +1,62 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url(../Books/form-back2.png);
+	background-size:100%;
+	font-family:sans-serif;	
+	background-repeat: no-repeat;
+}
+.login{
+	margin-top:100px;
+	margin-left: 35%;
+	width: 300px;
+	height:370px;
+	padding: 50px;
+	background-color: #fff;
+	text-align: center;
+}
+.logo{
+	color: #49C9AF;
+	font-size: 30px;
+	font-family: Lora;
+}
+input{
+	background-color: #fff;
+	padding: 15px 40px ;
+	margin: 5px;
+	outline:none;
+	border: 2px solid #49C9AF;
+	font-size:15px;
+}
+::-ms-clear {
+  display: none;
+}
+.login-btn{
+	padding: 15px 95px;
+	cursor: pointer;
+	font-size:17px;
+}
+.delete-btn{
+	padding: 15px 70px;
+	cursor: pointer;
+	font-size:17px;
+}
+label{
+	font-size: 15px;
+}
+.login-help{
+	font-size: 15px;
+}
+.login-help a{
+	text-decoration: none;
+}
+
+a:link{
+	color: #49C9AF;
+}
+a:visited{
+	color: #49C9AF;
+}
+a:active{
+	color: #49C9AF;
+}

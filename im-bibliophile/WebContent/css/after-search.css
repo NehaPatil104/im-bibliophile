@@ -1,0 +1,82 @@
+
+.sidenav{
+	height:100%;
+	width:200px;
+	position: fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: #49C9AF;
+	overflow-x:hidden;
+	padding-top: 20px;
+}
+.sidenav h1{
+	font-size: 25px;
+	padding-left: 16px;
+}
+.sidenav a{
+	text-decoration:none;
+	display:block;
+	padding: 6px 8px 6px 16px;
+	font-size: 20px;
+	color: #fff;
+}
+.sidenav a:hover, .signout-btn:hover {
+  color: black;
+}
+
+.main-two{
+	margin-left:200px;
+	padding: 0 20px;
+	position:center;
+}
+.signout-btn{
+	border-width:200px;
+	font-family: Lora;
+	border : 0px;
+	border-color: none;
+	background-color: #49C9AF;
+	padding: 6px 8px 6px 16px;
+	font-size: 19px;
+	color: #fff;
+	cursor:pointer;
+	outline:none;
+}
+
+#table-design {
+  border-collapse: collapse;
+  font-size:20px;
+  width: 100%;
+}
+
+#table-design td, #table-design th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table-design tr:nth-child(even){background-color: #f2f2f2;}
+
+#table-design tr:hover {background-color: #ddd;}
+
+#table-design th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #49C9AF;
+  color: black;
+}
+.main-two a:link {
+  color: black;
+}
+
+.main-two a:visited {
+  color: black;
+}
+
+.main-two a:hover {
+  color: #49C9AF;
+}
+
+.main-two a:active {
+  color: black;
+}

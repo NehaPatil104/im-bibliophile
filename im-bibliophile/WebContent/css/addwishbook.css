@@ -1,0 +1,92 @@
+.sidenav{
+	height:100%;
+	width:200px;
+	position: fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: #49C9AF;
+	overflow-x:hidden;
+	padding-top: 20px;
+}
+
+.sidenav h1{
+	font-size: 25px;
+	padding-left: 16px;
+}
+.sidenav a{
+	text-decoration:none;
+	display:block;
+	padding: 6px 8px 6px 16px;
+	font-size: 20px;
+	color: #fff;
+}
+.sidenav a:hover, #bookshelf-btn:hover, .signout-btn:hover  {
+  color: black;
+}
+#bookshelf-btn{
+	border-width:200px;
+	font-family: Lora;
+	border : 0px;
+	border-color: none;
+	background-color: #49C9AF;
+	padding: 6px 4px 6px 16px;
+	font-size: 19px;
+	color: #fff;
+	cursor:pointer;
+	outline:none;
+}
+
+.form-deco{
+	margin-left:200px;
+	padding: 0 20px;
+}
+input{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #49C9AF;
+	border-radius: 4px;
+	outline:none;
+}
+input[type="submit"]{
+	background-color: #49C9AF;
+	cursor:pointer;
+}
+ input:hover, textarea:hover, select:hover{
+	background-color: #aae6da;
+}
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #49C9AF;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+label-input{
+	margin-bottom:8px;
+	padding:5px 0;	
+}
+
+.signout-btn{
+	border-width:200px;
+	font-family: Lora;
+	border : 0px;
+	border-color: none;
+	background-color: #49C9AF;
+	padding: 6px 8px 6px 16px;
+	font-size: 19px;
+	color: #fff;
+	cursor:pointer;
+	outline:none;
+}
+option{
+	font-size:15px;
+	outline:none;
+	border:none;
+}
